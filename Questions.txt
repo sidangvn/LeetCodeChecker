@@ -1,0 +1,725 @@
+231
+Power of Two
+https://leetcode.com/problems/power-of-two
+No
+0
+110
+Balanced Binary Tree
+https://leetcode.com/problems/balanced-binary-tree
+No
+1
+671
+Second Minimum Node In a Binary Tree
+https://leetcode.com/problems/second-minimum-node-in-a-binary-tree
+No
+2
+35
+Search Insert Position
+https://leetcode.com/problems/search-insert-position
+No
+3
+716
+Max Stack
+https://leetcode.com/problems/max-stack
+No
+4
+299
+Bills and Cows
+https://leetcode.com/problems/bulls-and-cows
+No
+5
+459
+Repeat Sunstring Pattern
+https://leetcode.com/problems/repeated-substring-pattern
+No
+6
+198
+House Robber
+https://leetcode.com/problems/house-robber
+No
+7
+367
+Valid Perfect Square
+https://leetcode.com/problems/valid-perfect-square
+No
+8
+643
+Maximum Average Subarray I
+https://leetcode.com/problems/maximum-average-subarray-i
+No
+9
+443
+String Compression
+https://leetcode.com/problems/string-compression
+No
+10
+141
+Linked
+https://leetcode.com/problems/linked-list-cycle
+Yes
+11
+112
+Path
+https://leetcode.com/problems/path-sum
+Yes
+12
+160
+Intersection
+https://leetcode.com/problems/intersection-of-two-linked-lists
+Yes
+13
+205
+Isomorphic
+https://leetcode.com/problems/isomorphic-strings
+Yes
+14
+88
+Merge
+https://leetcode.com/problems/merge-sorted-array
+Yes
+15
+234
+Palindrome
+https://leetcode.com/problems/palindrome-linked-list
+Yes
+16
+20
+Valid
+https://leetcode.com/problems/valid-parentheses
+Yes
+17
+172
+Factorial
+https://leetcode.com/problems/factorial-trailing-zeroes
+Yes
+18
+203
+Remove
+https://leetcode.com/problems/remove-linked-list-elements
+Yes
+19
+219
+Contains
+https://leetcode.com/problems/contains-duplicate-ii
+Yes
+20
+917
+Reverse
+https://leetcode.com/problems/reverse-only-letters
+Yes
+21
+108
+Convert Sorted Array to Binary Search Tree
+https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree
+No
+22
+788
+Rotated
+https://leetcode.com/problems/rotated-digits
+Yes
+23
+122
+Best
+https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii
+Yes
+24
+242
+Valid
+https://leetcode.com/problems/valid-anagram
+Yes
+25
+258
+Add
+https://leetcode.com/problems/add-digits
+Yes
+26
+217
+Contains
+https://leetcode.com/problems/contains-duplicate
+Yes
+27
+448
+Find
+https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array
+Yes
+28
+13
+Roman
+https://leetcode.com/problems/roman-to-integer
+Yes
+29
+653
+Two Sum IV - Input is a BST
+https://leetcode.com/problems/two-sum-iv-input-is-a-bst
+No
+30
+733
+Flood Fill
+https://leetcode.com/problems/flood-fill
+No
+31
+1417
+Refortmat
+https://leetcode.com/problems/reformat-the-string
+Yes
+32
+953
+Verifying
+https://leetcode.com/problems/verifying-an-alien-dictionary
+Yes
+33
+171
+Excel Sheet Column Number
+https://leetcode.com/problems/excel-sheet-column-number
+No
+34
+167
+Two Sum II - Input array is sorted
+https://leetcode.com/problems/two-sum-ii-input-array-is-sorted
+No
+35
+387
+First Unique Character in a String
+https://leetcode.com/problems/first-unique-character-in-a-string
+No
+36
+107
+Binary Tree Level Order Tranversal II
+https://leetcode.com/problems/binary-tree-level-order-traversal-ii
+No
+37
+21
+Merge Two Sorted Lists
+https://leetcode.com/problems/merge-two-sorted-lists
+No
+38
+383
+Ransom Note
+https://leetcode.com/problems/ransom-note
+No
+39
+1013
+Partition
+https://leetcode.com/problems/partition-array-into-three-parts-with-equal-sum
+Yes
+40
+100
+Same
+https://leetcode.com/problems/same-tree
+Yes
+41
+118
+Pascal's
+https://leetcode.com/problems/pascals-triangle
+Yes
+42
+704
+Binary
+https://leetcode.com/problems/binary-search
+Yes
+43
+268
+Missing
+https://leetcode.com/problems/missing-number
+Yes
+44
+350
+Intersection
+https://leetcode.com/problems/intersection-of-two-arrays-ii
+Yes
+45
+257
+Binary
+https://leetcode.com/problems/binary-tree-paths
+Yes
+46
+121
+Best
+https://leetcode.com/problems/best-time-to-buy-and-sell-stock
+Yes
+47
+202
+Happy
+https://leetcode.com/problems/happy-number
+Yes
+48
+796
+Rotate
+https://leetcode.com/problems/rotate-string
+Yes
+49
+703
+Kth Largest Element in a Stream
+https://leetcode.com/problems/kth-largest-element-in-a-stream
+No
+50
+235
+Lowest
+https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree
+Yes
+51
+191
+Number
+https://leetcode.com/problems/number-of-1-bits
+Yes
+52
+232
+Implement Queue using Stacks
+https://leetcode.com/problems/implement-queue-using-stacks
+No
+53
+836
+Rectanle
+https://leetcode.com/problems/rectangle-overlap
+Yes
+54
+717
+1-bit and 2-bit Characters
+https://leetcode.com/problems/1-bit-and-2-bit-characters
+No
+55
+543
+Diameter of Binary Tree
+https://leetcode.com/problems/diameter-of-binary-tree
+No
+56
+541
+Reverse String II
+https://leetcode.com/problems/reverse-string-ii
+No
+57
+27
+Remove
+https://leetcode.com/problems/remove-element
+Yes
+58
+1470
+Shuffle the Array
+https://leetcode.com/problems/shuffle-the-array
+No
+60
+938
+Range Sum of BST
+https://leetcode.com/problems/range-sum-of-bst
+No
+61
+1304
+Find N Unique Integers Sum up to Zero
+https://leetcode.com/problems/find-n-unique-integers-sum-up-to-zero
+No
+62
+832
+Flipping an Image
+https://leetcode.com/problems/flipping-an-image
+No
+63
+905
+Sort Array By Parity
+https://leetcode.com/problems/sort-array-by-parity
+No
+64
+977
+Squares of a Sorted Array
+https://leetcode.com/problems/squares-of-a-sorted-array
+No
+65
+852
+Peak Index in a Mountain Array
+https://leetcode.com/problems/peak-index-in-a-mountain-array
+No
+66
+557
+Reverse Words in a String III
+https://leetcode.com/problems/reverse-words-in-a-string-iii
+No
+67
+876
+Middle of the Linked List
+https://leetcode.com/problems/middle-of-the-linked-list
+No
+68
+344
+Reverse String
+https://leetcode.com/problems/reverse-string
+No
+69
+1122
+Relative Sort Array
+https://leetcode.com/problems/relative-sort-array
+No
+70
+929
+Unique Email Address
+https://leetcode.com/problems/unique-email-addresses
+No
+71
+509
+Fibonacci Number
+https://leetcode.com/problems/fibonacci-number
+No
+72
+104
+Maximum Depth of Binary Tree
+https://leetcode.com/problems/maximum-depth-of-binary-tree
+No
+73
+463
+Island Perimeter
+https://leetcode.com/problems/island-perimeter
+No
+74
+1114
+Print in Order
+https://leetcode.com/problems/print-in-order
+No
+75
+136
+Single Number
+https://leetcode.com/problems/single-number
+No
+76
+1394
+Find Lucky Integer in an Array
+https://leetcode.com/problems/find-lucky-integer-in-an-array
+No
+77
+136
+Single Number
+https://leetcode.com/problems/single-number
+No
+78
+1394
+Find Lucky Integer in and Array
+https://leetcode.com/problems/find-lucky-integer-in-an-array
+No
+79
+226
+Invert Binary Tree
+https://leetcode.com/problems/invert-binary-tree
+No
+80
+872
+Leaf-Similar Trees
+https://leetcode.com/problems/leaf-similar-trees
+No
+81
+1185
+Day of the Week
+https://leetcode.com/problems/day-of-the-week
+No
+82
+784
+Letter Case Permutation
+https://leetcode.com/problems/letter-case-permutation
+No
+83
+496
+Next Greater Element I
+https://leetcode.com/problems/next-greater-element-i
+No
+84
+237
+Delete
+https://leetcode.com/problems/delete-node-in-a-linked-list
+Yes
+84
+884
+Uncommon Words from Two Sentences
+https://leetcode.com/problems/uncommon-words-from-two-sentences
+No
+86
+669
+Trim a Binary Search Tree
+https://leetcode.com/problems/trim-a-binary-search-tree
+No
+87
+412
+Fizz Buzz
+https://leetcode.com/problems/fizz-buzz
+No
+88
+349
+Intersect of Two Arrays
+https://leetcode.com/problems/intersection-of-two-arrays
+No
+89
+206
+Reverse Linked List
+https://leetcode.com/problems/reverse-linked-list
+No
+90
+575
+Distribute Candies
+https://leetcode.com/problems/distribute-candies
+No
+91
+706
+Design HashMap
+https://leetcode.com/problems/design-hashmap
+No
+92
+169
+Majority Element
+https://leetcode.com/problems/majority-element
+No
+93
+283
+Move Zeros
+https://leetcode.com/problems/move-zeroes
+No
+94
+917
+Reverse Only Letters
+https://leetcode.com/problems/reverse-only-letters
+No
+95
+108
+Convert Sorted Array to Binary Search Tree
+https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree
+No
+96
+27
+Remove Element
+https://leetcode.com/problems/remove-element
+No
+98
+415
+Add
+https://leetcode.com/problems/add-strings
+Yes
+97
+70
+Climbing
+https://leetcode.com/problems/climbing-stairs
+Yes
+98
+101
+Symmetric
+https://leetcode.com/problems/symmetric-tree
+Yes
+99
+844
+Backspace
+https://leetcode.com/problems/backspace-string-compare
+Yes
+100
+53
+Maximum Subarray
+https://leetcode.com/problems/maximum-subarray
+No
+103
+437
+Path Sum III
+https://leetcode.com/problems/path-sum-iii
+No
+104
+1
+Two Sum
+https://leetcode.com/problems/two-sum
+No
+105
+83
+Remove Duplicates from Sorted List
+https://leetcode.com/problems/remove-duplicates-from-sorted-list
+No
+106
+26
+Remove Duplicates from Sorted Array
+https://leetcode.com/problems/remove-duplicates-from-sorted-array
+No
+107
+225
+Implement Stack using Queues
+https://leetcode.com/problems/implement-stack-using-queues
+No
+108
+819
+Most Common Word
+https://leetcode.com/problems/most-common-word
+No
+109
+38
+Count and Say
+https://leetcode.com/problems/count-and-say
+No
+110
+303
+Range Sum Query - Immutable
+https://leetcode.com/problems/range-sum-query-immutable
+No
+111
+67
+Add Binary
+https://leetcode.com/problems/add-binary
+No
+112
+155
+Min Stack
+https://leetcode.com/problems/min-stack
+No
+113
+572
+Subtree of Another Tree
+https://leetcode.com/problems/subtree-of-another-tree
+No
+114
+724
+Find Pivot Index
+https://leetcode.com/problems/find-pivot-index
+No
+115
+231
+Power of Two
+https://leetcode.com/problems/power-of-two
+No
+116
+110
+Balanced Binary Tree
+https://leetcode.com/problems/balanced-binary-tree
+No
+117
+203
+Remove Linked List Elements
+https://leetcode.com/problems/remove-linked-list-elements
+No
+118
+219
+Contains Duplicate II
+https://leetcode.com/problems/contains-duplicate-ii
+No
+119
+111
+Minimum Depth of Binary Tree
+https://leetcode.com/problems/minimum-depth-of-binary-tree
+No
+120
+290
+Word
+https://leetcode.com/problems/word-pattern
+Yes
+119
+680
+Valid
+https://leetcode.com/problems/valid-palindrome-ii
+Yes
+120
+125
+Valid
+https://leetcode.com/problems/valid-palindrome
+Yes
+121
+278
+First
+https://leetcode.com/problems/first-bad-version
+Yes
+122
+14
+Longest
+https://leetcode.com/problems/longest-common-prefix
+Yes
+123
+28
+Implement
+https://leetcode.com/problems/implement-strstr
+Yes
+124
+189
+Rotate
+https://leetcode.com/problems/rotate-array
+Yes
+125
+69
+Sqrt(x)
+https://leetcode.com/problems/sqrtx
+Yes
+126
+532
+K-diff Pairs in an Array
+https://leetcode.com/problems/k-diff-pairs-in-an-array
+No
+129
+204
+Count
+https://leetcode.com/problems/count-primes
+Yes
+128
+176
+Second Highest Salary
+https://leetcode.com/problems/second-highest-salary
+No
+131
+168
+Excel Sheet Column Title
+https://leetcode.com/problems/excel-sheet-column-title
+No
+132
+414
+Third Maximum Number
+https://leetcode.com/problems/third-maximum-number
+No
+133
+7
+Reverse Integer
+https://leetcode.com/problems/reverse-integer
+No
+134
+9
+Palindrome
+https://leetcode.com/problems/palindrome-number
+Yes
+133
+11
+Container With Most Water
+https://leetcode.com/problems/container-with-most-water
+No
+134
+888
+Fair Candy Swap
+https://leetcode.com/problems/fair-candy-swap
+Yes
+135
+746
+Min Cost Climbing Stairs
+https://leetcode.com/problems/min-cost-climbing-stairs
+Yes
+136
+371
+Sum of Two Integers
+https://leetcode.com/problems/sum-of-two-integers
+Yes
+137
+326
+Power of Three
+https://leetcode.com/problems/power-of-three
+Yes
+138
+119
+Pascal's Triangle II
+https://leetcode.com/problems/pascals-triangle-ii
+Yes
+139
+66
+Plus One
+https://leetcode.com/problems/plus-one
+Yes
+140
+58
+Length of Last Word
+https://leetcode.com/problems/length-of-last-word
+Yes
+141
+48
+Rotate Image
+https://leetcode.com/problems/rotate-image
+Yes
+142
+19
+Remove Nth Node From End of List
+https://leetcode.com/problems/remove-nth-node-from-end-of-list
+Yes
+143
+3
+Longest Substring Without Repeating Characters
+https://leetcode.com/problems/longest-substring-without-repeating-characters
+Yes
+144
