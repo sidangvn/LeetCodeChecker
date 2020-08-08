@@ -290,30 +290,43 @@ namespace LeetCode_Checker
 
         private void btGoQuestion_Click(object sender, EventArgs e)
         {
-            string editItem = lbQuestionBox.SelectedItem.ToString();
-            Regex r = new Regex(" +");
-            string[] item = r.Split(editItem);
-
-            string url = "";
-
-            for (int i = 0; i < leetCodeClass.Count; i++)
+            if (lbQuestionBox.SelectedItems.Count > 1)
             {
-                if(item[1].ToString() == leetCodeClass[i].Number)
+                DialogResult res = MessageBox.Show("You Open Multiple Questions At The Same Time!", "OOPPP!", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                return;
+            }
+
+            if (lbQuestionBox.SelectedItem != null)
+            {
+                string editItem = lbQuestionBox.SelectedItem.ToString();
+                Regex r = new Regex(" +");
+                string[] item = r.Split(editItem);
+
+                string url = "";
+
+                for (int i = 0; i < leetCodeClass.Count; i++)
                 {
-                    url = leetCodeClass[i].Url.ToString();
-                    break;
+                    if (item[1].ToString() == leetCodeClass[i].Number)
+                    {
+                        url = leetCodeClass[i].Url.ToString();
+                        break;
+                    }
+                }
+
+                try
+                {
+                    Process.Start(url);
+                }
+                catch
+                {
+                    MessageBox.Show("InValid URL", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 }
             }
-
-            try
+            else
             {
-                Process.Start(url);
+                DialogResult res = MessageBox.Show("You Did Not Select Any Question!", "OOPPP!", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                tbQuestionNumber.Select();
             }
-            catch
-            {
-                MessageBox.Show("InValid URL", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Information);
-            }
-            
         }
 
         private void btDelAll_Click(object sender, EventArgs e)
@@ -379,32 +392,46 @@ namespace LeetCode_Checker
 
         private void btDeleteQuestion_Click(object sender, EventArgs e)
         {
-            DialogResult res = MessageBox.Show("Do you want to remove this question?", "Remove", MessageBoxButtons.YesNo, MessageBoxIcon.Stop);
-
-            if(res == DialogResult.Yes)
+            if (lbQuestionBox.SelectedItems.Count > 1)
             {
-                string editItem = lbQuestionBox.SelectedItem.ToString();
-                Regex r = new Regex(" +");
-                string[] item = r.Split(editItem);
+                DialogResult res = MessageBox.Show("You Can't Delete Multiple Questions At The Same Time!", "OOPPP!", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                return;
+            }
 
-                for (int i = 0; i < leetCodeClass.Count; i++)
+            if (lbQuestionBox.SelectedItem != null)
+            {
+                DialogResult res = MessageBox.Show("Do you want to remove this question?", "Remove", MessageBoxButtons.YesNo, MessageBoxIcon.Stop);
+
+                if (res == DialogResult.Yes)
                 {
-                    if (int.Parse(item[1]) == int.Parse(leetCodeClass[i].Number))
+                    string editItem = lbQuestionBox.SelectedItem.ToString();
+                    Regex r = new Regex(" +");
+                    string[] item = r.Split(editItem);
+
+                    for (int i = 0; i < leetCodeClass.Count; i++)
                     {
-                        leetCodeClass.RemoveAt(i);
-                        break;
+                        if (int.Parse(item[1]) == int.Parse(leetCodeClass[i].Number))
+                        {
+                            leetCodeClass.RemoveAt(i);
+                            break;
+                        }
+
                     }
 
+                    WriteToFile(0);
+                    leetCodeShow.Clear();
+                    leetCodeClass.Clear();
+                    loadQuestions();
+
+                    disPlayQuestions();
                 }
-
-                WriteToFile(0);
-                leetCodeShow.Clear();
-                leetCodeClass.Clear();
-                loadQuestions();
-
-                disPlayQuestions();
+                tbQuestionNumber.Select();
             }
-            tbQuestionNumber.Select();
+            else
+            {
+                DialogResult res = MessageBox.Show("You Did Not Select Any Question!", "OOPPP!", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                tbQuestionNumber.Select();
+            }
         }
 
         private void Menu_Load(object sender, EventArgs e)
