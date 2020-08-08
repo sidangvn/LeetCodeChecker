@@ -1,0 +1,10 @@
+C:\Users\sidan\source\repos\LeetCode Checker\bin\Debug\LeetCode Checker.exe.config
+C:\Users\sidan\source\repos\LeetCode Checker\bin\Debug\LeetCode Checker.exe
+C:\Users\sidan\source\repos\LeetCode Checker\bin\Debug\LeetCode Checker.pdb
+C:\Users\sidan\source\repos\LeetCode Checker\obj\Debug\LeetCode_Checker.Menu.resources
+C:\Users\sidan\source\repos\LeetCode Checker\obj\Debug\LeetCode_Checker.Properties.Resources.resources
+C:\Users\sidan\source\repos\LeetCode Checker\obj\Debug\LeetCode Checker.csproj.GenerateResource.cache
+C:\Users\sidan\source\repos\LeetCode Checker\obj\Debug\LeetCode Checker.csproj.CoreCompileInputs.cache
+C:\Users\sidan\source\repos\LeetCode Checker\obj\Debug\LeetCode Checker.exe
+C:\Users\sidan\source\repos\LeetCode Checker\obj\Debug\LeetCode Checker.pdb
+C:\Users\sidan\source\repos\LeetCode Checker\obj\Debug\LeetCode Checker.csprojAssemblyReference.cache
