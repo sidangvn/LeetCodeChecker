@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Menu));
             this.lbWelcome = new System.Windows.Forms.Label();
             this.btAddQuestions = new System.Windows.Forms.Button();
             this.btGoQuestion = new System.Windows.Forms.Button();
@@ -61,7 +62,7 @@
             // 
             this.lbWelcome.AutoSize = true;
             this.lbWelcome.Font = new System.Drawing.Font("Tekton Pro Ext", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbWelcome.Location = new System.Drawing.Point(70, 18);
+            this.lbWelcome.Location = new System.Drawing.Point(140, 9);
             this.lbWelcome.Name = "lbWelcome";
             this.lbWelcome.Size = new System.Drawing.Size(666, 59);
             this.lbWelcome.TabIndex = 0;
@@ -70,24 +71,26 @@
             // 
             // btAddQuestions
             // 
+            this.btAddQuestions.BackColor = System.Drawing.Color.White;
             this.btAddQuestions.Font = new System.Drawing.Font("Kristen ITC", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btAddQuestions.Location = new System.Drawing.Point(755, 164);
+            this.btAddQuestions.Location = new System.Drawing.Point(759, 165);
             this.btAddQuestions.Name = "btAddQuestions";
             this.btAddQuestions.Size = new System.Drawing.Size(147, 64);
             this.btAddQuestions.TabIndex = 8;
             this.btAddQuestions.Text = "Add Problem(s)";
-            this.btAddQuestions.UseVisualStyleBackColor = true;
+            this.btAddQuestions.UseVisualStyleBackColor = false;
             this.btAddQuestions.Click += new System.EventHandler(this.btAddQuestions_Click);
             // 
             // btGoQuestion
             // 
+            this.btGoQuestion.BackColor = System.Drawing.Color.White;
             this.btGoQuestion.Font = new System.Drawing.Font("Kristen ITC", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btGoQuestion.Location = new System.Drawing.Point(506, 386);
             this.btGoQuestion.Name = "btGoQuestion";
             this.btGoQuestion.Size = new System.Drawing.Size(132, 46);
             this.btGoQuestion.TabIndex = 9;
             this.btGoQuestion.Text = "Goto This Question Online";
-            this.btGoQuestion.UseVisualStyleBackColor = true;
+            this.btGoQuestion.UseVisualStyleBackColor = false;
             this.btGoQuestion.Click += new System.EventHandler(this.btGoQuestion_Click);
             // 
             // tbQuestionNumber
@@ -136,24 +139,26 @@
             // 
             // btDeleteQuestion
             // 
+            this.btDeleteQuestion.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
             this.btDeleteQuestion.Font = new System.Drawing.Font("Kristen ITC", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btDeleteQuestion.Location = new System.Drawing.Point(506, 215);
             this.btDeleteQuestion.Name = "btDeleteQuestion";
             this.btDeleteQuestion.Size = new System.Drawing.Size(106, 51);
             this.btDeleteQuestion.TabIndex = 10;
             this.btDeleteQuestion.Text = "Delete This Question";
-            this.btDeleteQuestion.UseVisualStyleBackColor = true;
+            this.btDeleteQuestion.UseVisualStyleBackColor = false;
             this.btDeleteQuestion.Click += new System.EventHandler(this.btDeleteQuestion_Click);
             // 
             // btGotoDocument
             // 
+            this.btGotoDocument.BackColor = System.Drawing.Color.White;
             this.btGotoDocument.Font = new System.Drawing.Font("Kristen ITC", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btGotoDocument.Location = new System.Drawing.Point(661, 386);
             this.btGotoDocument.Name = "btGotoDocument";
             this.btGotoDocument.Size = new System.Drawing.Size(111, 46);
             this.btGotoDocument.TabIndex = 11;
             this.btGotoDocument.Text = "Goto Document";
-            this.btGotoDocument.UseVisualStyleBackColor = true;
+            this.btGotoDocument.UseVisualStyleBackColor = false;
             this.btGotoDocument.Click += new System.EventHandler(this.btGotoDocument_Click);
             // 
             // label3
@@ -167,12 +172,13 @@
             // 
             // btDelAll
             // 
+            this.btDelAll.BackColor = System.Drawing.Color.MediumPurple;
             this.btDelAll.Location = new System.Drawing.Point(844, 386);
             this.btDelAll.Name = "btDelAll";
             this.btDelAll.Size = new System.Drawing.Size(75, 25);
             this.btDelAll.TabIndex = 12;
             this.btDelAll.Text = "Delete All";
-            this.btDelAll.UseVisualStyleBackColor = true;
+            this.btDelAll.UseVisualStyleBackColor = false;
             this.btDelAll.Click += new System.EventHandler(this.btDelAll_Click);
             // 
             // tbLink
@@ -211,23 +217,25 @@
             // 
             // btEdit
             // 
+            this.btEdit.BackColor = System.Drawing.Color.White;
             this.btEdit.Font = new System.Drawing.Font("Kristen ITC", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btEdit.Location = new System.Drawing.Point(630, 214);
             this.btEdit.Name = "btEdit";
             this.btEdit.Size = new System.Drawing.Size(106, 51);
             this.btEdit.TabIndex = 17;
             this.btEdit.Text = "Edit This Question";
-            this.btEdit.UseVisualStyleBackColor = true;
+            this.btEdit.UseVisualStyleBackColor = false;
             this.btEdit.Click += new System.EventHandler(this.btEdit_Click);
             // 
             // btFind
             // 
+            this.btFind.BackColor = System.Drawing.Color.White;
             this.btFind.Location = new System.Drawing.Point(787, 298);
             this.btFind.Name = "btFind";
             this.btFind.Size = new System.Drawing.Size(119, 27);
             this.btFind.TabIndex = 18;
             this.btFind.Text = "Find";
-            this.btFind.UseVisualStyleBackColor = true;
+            this.btFind.UseVisualStyleBackColor = false;
             this.btFind.Click += new System.EventHandler(this.btFind_Click);
             // 
             // tbFind
@@ -250,52 +258,57 @@
             // 
             // btClear
             // 
+            this.btClear.BackColor = System.Drawing.Color.White;
             this.btClear.Location = new System.Drawing.Point(534, 164);
             this.btClear.Name = "btClear";
             this.btClear.Size = new System.Drawing.Size(78, 45);
             this.btClear.TabIndex = 21;
             this.btClear.Text = "Clear";
-            this.btClear.UseVisualStyleBackColor = true;
+            this.btClear.UseVisualStyleBackColor = false;
             this.btClear.Click += new System.EventHandler(this.btClear_Click);
             // 
             // btOK
             // 
+            this.btOK.BackColor = System.Drawing.Color.White;
             this.btOK.Location = new System.Drawing.Point(630, 165);
             this.btOK.Name = "btOK";
             this.btOK.Size = new System.Drawing.Size(85, 44);
             this.btOK.TabIndex = 22;
             this.btOK.Text = "OK";
-            this.btOK.UseVisualStyleBackColor = true;
+            this.btOK.UseVisualStyleBackColor = false;
             this.btOK.Click += new System.EventHandler(this.btOK_Click);
             // 
             // btGetBackQuestions
             // 
+            this.btGetBackQuestions.BackColor = System.Drawing.Color.MediumPurple;
             this.btGetBackQuestions.Location = new System.Drawing.Point(844, 355);
             this.btGetBackQuestions.Name = "btGetBackQuestions";
             this.btGetBackQuestions.Size = new System.Drawing.Size(75, 25);
             this.btGetBackQuestions.TabIndex = 23;
             this.btGetBackQuestions.Text = "Restore";
-            this.btGetBackQuestions.UseVisualStyleBackColor = true;
+            this.btGetBackQuestions.UseVisualStyleBackColor = false;
             this.btGetBackQuestions.Click += new System.EventHandler(this.btGetBackQuestions_Click);
             // 
             // btSolved
             // 
+            this.btSolved.BackColor = System.Drawing.Color.White;
             this.btSolved.Location = new System.Drawing.Point(506, 324);
             this.btSolved.Name = "btSolved";
             this.btSolved.Size = new System.Drawing.Size(132, 47);
             this.btSolved.TabIndex = 24;
             this.btSolved.Text = "Select Solved Questions";
-            this.btSolved.UseVisualStyleBackColor = true;
+            this.btSolved.UseVisualStyleBackColor = false;
             this.btSolved.Click += new System.EventHandler(this.btSolved_Click);
             // 
             // btUnSolved
             // 
+            this.btUnSolved.BackColor = System.Drawing.Color.White;
             this.btUnSolved.Location = new System.Drawing.Point(663, 324);
             this.btUnSolved.Name = "btUnSolved";
             this.btUnSolved.Size = new System.Drawing.Size(109, 47);
             this.btUnSolved.TabIndex = 25;
             this.btUnSolved.Text = "Select Unsolved Questions";
-            this.btUnSolved.UseVisualStyleBackColor = true;
+            this.btUnSolved.UseVisualStyleBackColor = false;
             this.btUnSolved.Click += new System.EventHandler(this.btUnSolved_Click);
             // 
             // lbNoti
@@ -308,12 +321,13 @@
             // 
             // btPickRandom
             // 
+            this.btPickRandom.BackColor = System.Drawing.Color.White;
             this.btPickRandom.Location = new System.Drawing.Point(568, 274);
             this.btPickRandom.Name = "btPickRandom";
             this.btPickRandom.Size = new System.Drawing.Size(114, 40);
             this.btPickRandom.TabIndex = 27;
-            this.btPickRandom.Text = "Pick A Random Question";
-            this.btPickRandom.UseVisualStyleBackColor = true;
+            this.btPickRandom.Text = "Pick A Random Unsolved Question";
+            this.btPickRandom.UseVisualStyleBackColor = false;
             this.btPickRandom.Click += new System.EventHandler(this.btPickRandom_Click);
             // 
             // Menu
@@ -348,7 +362,8 @@
             this.Controls.Add(this.btGoQuestion);
             this.Controls.Add(this.btAddQuestions);
             this.Controls.Add(this.lbWelcome);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.Name = "Menu";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

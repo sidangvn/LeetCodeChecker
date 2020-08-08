@@ -418,7 +418,26 @@ namespace LeetCode_Checker
             countUnsolved = 0;
             for (int i = 0; i < leetCodeShow.Count; i++)
             {
-                string leet = leetCodeShow[i].Checker + "           " + leetCodeShow[i].Number + "           " + leetCodeShow[i].Name;
+                int num = int.Parse(leetCodeShow[i].Number);
+                string leet = "";
+
+                if(num >= 10 && num < 100)
+                {
+                    leet = leetCodeShow[i].Checker.PadRight(10) + leetCodeShow[i].Number.PadRight(19) + leetCodeShow[i].Name;
+                }
+                else if(num >= 100 && num < 1000)
+                {
+                    leet = leetCodeShow[i].Checker.PadRight(10) + leetCodeShow[i].Number.PadRight(18) + leetCodeShow[i].Name;
+                }
+                else if(num >= 1000)
+                {
+                    leet = leetCodeShow[i].Checker.PadRight(10) + leetCodeShow[i].Number.PadRight(17) + leetCodeShow[i].Name;
+                }
+                else
+                {
+                    leet = leetCodeShow[i].Checker.PadRight(10) + leetCodeShow[i].Number.PadRight(20) + leetCodeShow[i].Name;
+                }
+
                 lbQuestionBox.Items.Add(leet);
 
                 if(leetCodeShow[i].Checker == "Yes")
@@ -453,8 +472,14 @@ namespace LeetCode_Checker
                 Regex r = new Regex(" +");
                 string[] item = r.Split(editItem);
 
+                string name = "";
+                for(int i = 2; i < item.Length; i++)
+                {
+                    name += item[i] + " ";
+                }
+
                 tbQuestionNumber.Text = item[1].ToString();
-                tbQuestionName.Text = item[2].ToString();
+                tbQuestionName.Text = name;
 
                 if (item[0] == "Yes")
                 {
@@ -640,27 +665,30 @@ namespace LeetCode_Checker
         private void btPickRandom_Click(object sender, EventArgs e)
         {
             Random rand = new Random();
-            List<int> randomly = new List<int>();
+            List<LeetCode> randomly = new List<LeetCode>();
 
             for(int i = 0; i < leetCodeClass.Count; i++)
             {
                 if(leetCodeClass[i].Checker == "No")
                 {
-                    randomly.Add(i);
+                    randomly.Add(leetCodeClass[i]);
                 }
             }
 
             int randomQuestion = rand.Next(randomly.Count);
 
-            int temp = randomly[randomQuestion];
-            try
+            string temp = randomly[randomQuestion].Number;
+
+
+            for(int k = 0; k < leetCodeShow.Count; k++)
             {
-                lbQuestionBox.SetSelected(int.Parse(leetCodeClass[temp].Number), true);
+                if(leetCodeShow[k].Number == temp)
+                {
+                    lbQuestionBox.SetSelected(k, true);
+                    break;
+                }
             }
-            catch
-            { }
-            
-            
+
             tbFind.Clear();
             tbQuestionNumber.Select();
 

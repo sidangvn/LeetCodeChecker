@@ -7,4 +7,3 @@ C:\Users\sidan\source\repos\LeetCode Checker\obj\Debug\LeetCode Checker.csproj.G
 C:\Users\sidan\source\repos\LeetCode Checker\obj\Debug\LeetCode Checker.csproj.CoreCompileInputs.cache
 C:\Users\sidan\source\repos\LeetCode Checker\obj\Debug\LeetCode Checker.exe
 C:\Users\sidan\source\repos\LeetCode Checker\obj\Debug\LeetCode Checker.pdb
-C:\Users\sidan\source\repos\LeetCode Checker\obj\Debug\LeetCode Checker.csprojAssemblyReference.cache
